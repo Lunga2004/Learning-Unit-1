@@ -1,0 +1,23 @@
+
+package addition;
+
+/**
+ *ST10445079
+ * @author Lunga Kwinana
+ */
+import javax.swing.JOptionPane;
+public class Addition {
+
+
+    public static void main(String[] args) {
+        String Input1 = JOptionPane.showInputDialog(null, "Enter One Integer", "INPUT#1", JOptionPane.PLAIN_MESSAGE);
+        String Input2 = JOptionPane.showInputDialog(null, "Enter Another Integer", "INPUT#2", JOptionPane.PLAIN_MESSAGE);
+        
+        int Integer1 = Integer.parseInt(Input1);
+        int Integer2 = Integer.parseInt(Input2);
+        int sum = Integer1 +Integer2;
+        
+        JOptionPane.showMessageDialog(null, sum, "Results", JOptionPane.PLAIN_MESSAGE); 
+    }
+    
+}
