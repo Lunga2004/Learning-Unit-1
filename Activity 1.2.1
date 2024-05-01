@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+/**
+ *ST10096006
+ * @author B LETSOSO
+ */
+public class Fullname {
+
+
+    public static void main(String[] args) {
+        String fullname;
+        String email_address;
+        int phone_number;
+        
+        Scanner inputDevice = new Scanner(System.in);
+        System.out.print("Please Enter Your Fullname >> ");
+        fullname = inputDevice.nextLine();
+        System.out.print("Please Enter Your Email Address >> ");
+        email_address = inputDevice.nextLine();
+        System.out.print("Please Enter Your Phone Number >> ");
+        phone_number = inputDevice.nextInt();
+        
+        System.out.println(fullname);
+        System.out.println(email_address);
+        System.out.println(phone_number);
+    }
+    
+}
